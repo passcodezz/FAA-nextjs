@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css?family=Prompt");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  /* font-family: "Prompt"; */
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 22px !important;
+  color: rgb(47, 47, 47) !important;
+}
+
+.hiddencard {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+ -webkit-box-orient: vertical;
+ /*display: block;
+  display: -webkit-box;
+  height: 70px;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;*/
+}
+
+
+/* .cardshadow {
+=
+  box-shadow: -1px 8px 20px -11px rgb(0 0 0 / 75%);
+
+} */

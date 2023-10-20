@@ -1,0 +1,11 @@
+.header__shrink {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  box-shadow: 5px 5px 15px -5px #2c2c2c44 !important;
+  z-index: 9999;
+  background-color: #fff;
+}

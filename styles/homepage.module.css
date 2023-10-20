@@ -1,0 +1,56 @@
+.sidebar_left {
+  box-shadow: -1px 8px 20px -11px rgb(0 0 0 / 75%);
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+/* ส่วน page Section_image */
+
+.section_image {
+  background: #ececec;
+  padding: 20px;
+  /* margin-bottom: 40px; */
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.section_image_in {
+  /* width: 100px; */
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  /* border-radius: 50%; */
+}
+
+
+
+
+#img_slide {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  /* border-radius: 10px; */
+}
+
+.boxtextinner {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+@media (max-width: 575px) {
+  #img_slide {
+    height: 200px;
+  }
+
+  #img_slide {
+    height: 300px;
+    width: 100%;
+  }
+}
+
+
+
+
+
